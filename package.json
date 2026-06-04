@@ -1,27 +1,10 @@
 {
-  "name": "@maksim220717/ajs",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/maksim2207/ajs#readme",
-  "bugs": {
-    "url": "https://github.com/maksim2207/ajs/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/maksim2207/ajs.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "main": "src/index.js",
-  {
   "type": "module",
   "exports": "./src/index.js",
   "files": [
     "src"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
   }
 }
-
